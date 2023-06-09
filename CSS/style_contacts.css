@@ -1,0 +1,53 @@
+.main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 30px);
+        
+}
+
+.main div:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    justify-self: center;
+    
+}
+
+.phone {
+    justify-self: center;
+    min-width: 250px;
+    text-align: center;
+}
+
+.bi-telephone-outbound {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.phone span {    
+    margin-left: 3%;
+}
+
+.mail {
+    justify-self: center;
+    min-width: 250px;
+    text-align: center;
+}
+
+.bi-mailbox2 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mail span {    
+    margin-left: 3%;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}

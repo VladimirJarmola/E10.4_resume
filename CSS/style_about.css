@@ -1,0 +1,11 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: .5vw;
+    justify-items: center;
+}
+
+.foto {
+    margin-top: 20px;
+}

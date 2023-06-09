@@ -1,0 +1,87 @@
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+}
+
+.python_func {
+  width: 90%; 
+  background-color: #c5d06f; 
+  font-weight: 700;
+} 
+
+.python_OOP {
+  width: 80%; 
+  background-color: #d5ca64; 
+  font-weight: 700;
+} 
+
+.django {
+  width: 70%; 
+  background-color: #656dde; 
+  font-weight: 700;
+} 
+
+.html {
+  width: 90%; 
+  background-color: #5fb394; 
+  font-weight: 700;
+} 
+
+.css {
+  width: 80%; 
+  background-color: #93c8f4; 
+  font-weight: 700;
+} 
+
+.js {
+  width: 65%; 
+  background-color: #f58f88; 
+  font-weight: 700;
+} 
+
+.collapsible {
+    background-color: hsla(232, 26%, 76%, 1);
+    cursor: pointer;
+    padding: 18px;
+    width: 150px;
+    border: none;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Sofia Sans Italic', Arial, Helvetica, sans-serif;
+}
+
+.active, .collapsible:hover {
+    background-color: hsla(232, 26%, 76%, 1);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.bi-plus-square {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.collapsible span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5%;
+    
+}
