@@ -9,3 +9,9 @@
 .foto {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .about {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}
